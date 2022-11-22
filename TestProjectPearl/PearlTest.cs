@@ -4,8 +4,6 @@ using System;
 
 namespace TestProjectPearl
 {
-    
-    
     /// <summary>
     ///This is a test class for PearlTest and is intended
     ///to contain all PearlTest Unit Tests
@@ -13,8 +11,6 @@ namespace TestProjectPearl
     [TestClass()]
     public class PearlTest
     {
-
-
         private TestContext testContextInstance;
 
         /// <summary>
@@ -62,7 +58,6 @@ namespace TestProjectPearl
         //}
         //
         #endregion
-
 
         [TestMethod()]
         public void P01_ConstructorSimple()

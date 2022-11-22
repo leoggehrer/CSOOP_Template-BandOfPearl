@@ -3,8 +3,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestProjectPearl
 {
-
-
     /// <summary>
     ///This is a test class for PearlNecklaceTest and is intended
     ///to contain all PearlNecklaceTest Unit Tests
@@ -12,8 +10,6 @@ namespace TestProjectPearl
     [TestClass()]
     public class BandTest
     {
-
-
         private TestContext testContextInstance;
 
         /// <summary>
@@ -62,14 +58,12 @@ namespace TestProjectPearl
         //
         #endregion
 
-
         [TestMethod()]
         public void B01_Constructor()
         {
             Band band = new Band();
             Assert.AreEqual(0, band.Count);
         }
-
 
         [TestMethod()]
         public void B02_AddOne()
@@ -164,6 +158,5 @@ namespace TestProjectPearl
             band.AddPearl(null);
             Assert.AreEqual(7, band.Count);
         }
-
     }
 }
